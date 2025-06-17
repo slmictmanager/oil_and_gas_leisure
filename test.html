@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SLM Leisure Flights</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 40px;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Fly+SLM+Leisure') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 0 0 8px rgba(0,0,0,0.6);
+    }
+    .search-form {
+      max-width: 800px;
+      margin: -60px auto 2rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+    .search-form h2 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .form-row label {
+      flex: 1 1 45%;
+      display: flex;
+      flex-direction: column;
+    }
+    input, select {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 0.25rem;
+    }
+    .search-form button {
+      background-color: #003366;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .promo {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #fff;
+    }
+    .promo h2 {
+      font-size: 2rem;
+    }
+    .footer {
+      background-color: #003366;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    .footer a {
+      color: #aaddff;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/120x40?text=SLM+Logo" alt="SLM Logo">
+    <nav>
+      <a href="#" style="color:white; margin-right: 1rem;">Home</a>
+      <a href="#" style="color:white;">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    Discover Affordable Flights with SLM Leisure
+  </div>
+
+  <div class="search-form">
+    <h2>Book Your Trip</h2>
+    <form>
+      <div class="form-row">
+        <label>
+          From
+          <input type="text" placeholder="Departure city">
+        </label>
+        <label>
+          To
+          <input type="text" placeholder="Destination city">
+        </label>
+      </div>
+      <div class="form-row">
+        <label>
+          Departure Date
+          <input type="date">
+        </label>
+        <label>
+          Return Date
+          <input type="date">
+        </label>
+      </div>
+      <div class="form-row">
+        <label>
+          Passengers
+          <select>
+            <option>1 Adult</option>
+            <option>2 Adults</option>
+            <option>Family (2+2)</option>
+          </select>
+        </label>
+      </div>
+      <button type="submit">Search Flights</button>
+    </form>
+  </div>
+
+  <div class="promo">
+    <h2>Special Offers to the Caribbean</h2>
+    <p>Book now and enjoy exclusive deals to Paramaribo, Curaçao, Aruba, and more!</p>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 Surinam Airways (SLM). All rights reserved.
+    <br/>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+  </footer>
+
+</body>
+</html>
